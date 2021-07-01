@@ -1,8 +1,12 @@
-import Profile from "./components/Profile";
-import ".App.css";
+import Profile from './components/Profile/profile';
+import user from './components/data/user.json';
 
-function App() {
-      return <div className="App"></div>;
+export default function App() {
+    return <div>
+          <Profile
+    avatar={user.avatar}
+    name={user.name}
+    tag={user.tag} />,
+      </div>;
 };
 
-export default App;
