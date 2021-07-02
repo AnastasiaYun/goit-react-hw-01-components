@@ -12,6 +12,7 @@
 
 import ReactDom from 'react-dom';
 import App from './App';
+ReactDom.render(<App />, document.querySelector('#root'));
 
 // const data = {
 
@@ -36,5 +37,5 @@ import App from './App';
 //     tag={user.tag} />,
 
 
-ReactDom.render(<App />, document.querySelector('#root'));
+
 
