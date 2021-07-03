@@ -1,3 +1,4 @@
+
 export default function Profile(props) {
   const { avatar, name, tag, location, followers, views,likes } = props;
   return (
